@@ -2,6 +2,30 @@
   img {
     height: 100%;
     object-fit: cover;
+  }
+  
+  .card {
     border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        #020617 100%/* utility first  */
+        .grid {
+          display: grid;
+        }
+        
+        .grid-flow-col {
+          grid-auto-flow: column;
+        }
+      );
+    }
   }
 }
