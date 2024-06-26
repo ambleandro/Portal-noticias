@@ -17,15 +17,19 @@
       background: linear-gradient(
         180deg,
         transparent 0%,
-        #020617 100%/* utility first  */
-        .grid {
-          display: grid;
-        }
-        
-        .grid-flow-col {
-          grid-auto-flow: column;
-        }
+        #020617 100%
       );
     }
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+
+      h2 {
+        margin-top: 8px;
+      }
+    }
+    
   }
 }
+  
