@@ -35,4 +35,15 @@
     }
   }
 }
+
+weekly {
+  
+  &>div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  img {
+    height: 160px;
+  }
+}
   
